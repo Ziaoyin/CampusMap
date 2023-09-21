@@ -1,0 +1,8 @@
+Briefly list any changes you made to your graph class during hw-pathfinder, and why you made those changes.
+I changed the hashcode method of the Edge class to make it more consistent
+with other hashcode functions in terms of being more deterministic.
+
+I also changed the graph to be generic, being able to handle all objects as labels of nodes and vertices. This involved
+changing the parameters and the return types. Most of the body remained the same as evaluating Strings often
+is similar to evaluating objects.
+

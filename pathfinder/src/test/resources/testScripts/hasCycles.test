@@ -1,0 +1,11 @@
+# tests that cycles don't impact shortest path
+CreateGraph graph
+AddNode graph n1
+AddNode graph n2
+AddNode graph n3
+
+AddEdge graph n1 n2 3
+AddEdge graph n2 n1 5
+AddEdge graph n2 n3 1
+
+FindPath graph n1 n3

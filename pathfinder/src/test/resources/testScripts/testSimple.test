@@ -1,0 +1,9 @@
+# tests simple graphs
+CreateGraph graph
+AddNode graph n1
+AddNode graph n2
+
+AddEdge graph n1 n2 4
+AddEdge graph n1 n2 5
+
+FindPath graph n1 n2

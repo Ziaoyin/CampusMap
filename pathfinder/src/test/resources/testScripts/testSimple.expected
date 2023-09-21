@@ -1,0 +1,11 @@
+# tests simple graphs
+created graph graph
+added node n1 to graph
+added node n2 to graph
+
+added edge 4.000 from n1 to n2 in graph
+added edge 5.000 from n1 to n2 in graph
+
+path from n1 to n2:
+n1 to n2 with weight 4.000
+total cost: 4.000

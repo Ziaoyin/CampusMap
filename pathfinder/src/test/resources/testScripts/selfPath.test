@@ -1,0 +1,10 @@
+# tests if path to self has a weight of 0.000
+CreateGraph graph
+AddNode graph n1
+FindPath graph n1 n1
+AddNode graph n2
+AddEdge graph n1 n2 0.0
+FindPath graph n1 n1
+AddNode graph n3
+AddEdge graph n1 n3 1.0
+FindPath graph n1 n1

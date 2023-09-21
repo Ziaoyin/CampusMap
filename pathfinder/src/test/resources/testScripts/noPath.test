@@ -1,0 +1,20 @@
+# tests if there is no given path, the output is correct
+CreateGraph graph
+AddNode graph n1
+AddNode graph n2
+FindPath graph n1 n2
+FindPath graph n2 n1
+
+AddNode graph n3
+AddEdge graph n1 n2 3
+FindPath graph n1 n3
+FindPath graph n3 n1
+FindPath graph n3 n2
+FindPath graph n2 n3
+
+AddNode graph n4
+AddNode graph n5
+AddEdge graph n4 n5 3
+FindPath graph n1 n4
+FindPath graph n2 n5
+FindPath graph n3 n4

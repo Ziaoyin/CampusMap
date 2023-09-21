@@ -1,0 +1,124 @@
+/*
+ * Copyright (C) 2023 Soham Pardeshi.  All rights reserved.  Permission is
+ * hereby granted to students registered for University of Washington
+ * CSE 331 for use solely during Spring Quarter 2021 for purposes of
+ * the course.  No other use, copying, distribution, or modification
+ * is permitted without prior written consent. Copyrights for
+ * third-party components of this work must be honored.  Instructors
+ * interested in reusing these course materials should contact the
+ * author.
+ */
+
+/*
+CSS file used by the Application
+
+It provides placement and style information for the components in the app
+and only exists for aesthetic purposes. The app would work just fine if this
+file was empty.
+*/
+
+/* Centers component with ID "map-wrapper" and sets width and bottom spacing */
+#map {
+    margin:auto;
+    width:820px;
+    border-width:1px;
+    border-color:steelblue;
+    border-style: dashed;
+    background-color: lightsteelblue;
+}
+
+/* Centers the "Campus Mapper!" text, which is in a <p> (paragraph) tag inside the <App /> component, and has an
+ID of "app-title". Also makes the text bigger, bold, and adds some space around the title. */
+#app-title {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: center;
+    color: steelblue;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: whitesmoke;
+    border-width:2px;
+    border-color:steelblue;
+    border-style: solid;
+    border-radius: 5px;
+    width: 1000px;
+    height: 40px;
+
+}
+
+/* Sets size of map, which has class name "leaflet-container" */
+.leaflet-container {
+    margin:10px;
+    width: 795px;
+    height: 600px;
+}
+
+/* Same as above, but with ID "edge-list", and also creates a little margin so things aren't squished together. */
+#edge-list {
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+    margin: 5px;
+    position: absolute;
+    left: 400px;
+    background-color: lightsteelblue;
+    border-radius: 5px;
+
+}
+
+/* This syntax means "any <button> elements inside something with ID "edge-list"" - the 2px is for above and
+ below the button, the 5px is the left and right sides. This prevents the draw and clear buttons from being
+ squished right next to each other. */
+#edge-list button {
+    margin: 2px 5px;
+    color: #19354d;
+    background-color: aliceblue;
+    border-color: steelblue;
+    box-shadow: steelblue;
+}
+
+#edge-list input {
+    margin: 2px 5px;
+    color: black;
+    background-color: whitesmoke;
+    border-color: steelblue;
+}
+#misc-menu {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    margin: 5px;
+    position: absolute;
+    right: 400px;
+    background-color: lightsteelblue;
+    border-radius: 5px;
+}
+
+#misc-menu button {
+    margin: 2px 5px;
+    color: #19354d;
+    background-color: aliceblue;
+    border-color: steelblue;
+    box-shadow: steelblue;
+}
+
+#instructions {
+    margin:10px;
+    width: 795px;
+    height: 600px;
+    text-align: center;
+}
+#instructions button {
+    margin: 2px 5px;
+    color: #19354d;
+    background-color: aliceblue;
+    border-color: steelblue;
+    box-shadow: steelblue;
+}
+#misc-menu textarea {
+    margin: 2px 5px;
+    color: black;
+    background-color: whitesmoke;
+    border-color: steelblue;
+}

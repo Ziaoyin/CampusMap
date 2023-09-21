@@ -1,0 +1,29 @@
+# tests if there is no given path, the output is correct
+created graph graph
+added node n1 to graph
+added node n2 to graph
+path from n1 to n2:
+no path found
+path from n2 to n1:
+no path found
+
+added node n3 to graph
+added edge 3.000 from n1 to n2 in graph
+path from n1 to n3:
+no path found
+path from n3 to n1:
+no path found
+path from n3 to n2:
+no path found
+path from n2 to n3:
+no path found
+
+added node n4 to graph
+added node n5 to graph
+added edge 3.000 from n4 to n5 in graph
+path from n1 to n4:
+no path found
+path from n2 to n5:
+no path found
+path from n3 to n4:
+no path found

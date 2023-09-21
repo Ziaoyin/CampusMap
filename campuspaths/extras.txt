@@ -1,0 +1,15 @@
+CSE 331 Homework Answers:
+
+Your Name: Ziao Yin
+
+List any additional features or functionality you implemented
+in your CampusPaths application below. Only things listed here
+will be considered for extra credit.
+
+- Merged text box with select (can both type with options dropdown)
+- Changed the font and color of the application. Provides a more modern and friendly user interface
+- Adds the notification of the total distance to the user
+- Provided instructions button for users with the ability to toggle
+- Adds the ability to add buildings/locations
+- Adds the ability to change the color
+
